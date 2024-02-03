@@ -1,0 +1,847 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='worksheet'>
+      <format attr='font-size' value='12' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Starbucks satisfactory survey v2' inline='true' name='federated.1v4bn7i0mmws1x1drbf721o1lm96' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Starbucks satisfactory survey v2' name='textscan.17qwh971dsr2w61bw5n3z13wyy1x'>
+            <connection class='textscan' directory='C:/Users/dev46/OneDrive/Desktop/School Documents/Spring 2024/Visualization and Presentation/Data' filename='Starbucks satisfactory survey v2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Ambience]' />
+            <value name='[Likely To Choose]' />
+            <value name='[Price]' />
+            <value name='[Product]' />
+            <value name='[Promo Importance]' />
+            <value name='[Service]' />
+            <value name='[Wifi]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Starbucks satisfactory survey v2.csv].[ambience]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[likely_to_choose]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[price]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[product]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[promo_importance]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[service]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[wifi]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17qwh971dsr2w61bw5n3z13wyy1x' name='Starbucks satisfactory survey v2.csv' table='[Starbucks satisfactory survey v2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Timestamp' ordinal='0' />
+              <column datatype='string' name='gender' ordinal='1' />
+              <column datatype='string' name='age' ordinal='2' />
+              <column datatype='string' name='status' ordinal='3' />
+              <column datatype='string' name='income' ordinal='4' />
+              <column datatype='string' name='freq_visit' ordinal='5' />
+              <column datatype='string' name='method_visit' ordinal='6' />
+              <column datatype='string' name='time_in_store' ordinal='7' />
+              <column datatype='string' name='nearest_store' ordinal='8' />
+              <column datatype='string' name='membership_card' ordinal='9' />
+              <column datatype='string' name='frequently_purchased' ordinal='10' />
+              <column datatype='string' name='typical_spend' ordinal='11' />
+              <column datatype='integer' name='product' ordinal='12' />
+              <column datatype='integer' name='price' ordinal='13' />
+              <column datatype='integer' name='promo_importance' ordinal='14' />
+              <column datatype='integer' name='ambience' ordinal='15' />
+              <column datatype='integer' name='wifi' ordinal='16' />
+              <column datatype='integer' name='service' ordinal='17' />
+              <column datatype='integer' name='likely_to_choose' ordinal='18' />
+              <column datatype='string' name='promotion_source' ordinal='19' />
+              <column datatype='string' name='likely_to_return' ordinal='20' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Ambience]' />
+            <value name='[Likely To Choose]' />
+            <value name='[Price]' />
+            <value name='[Product]' />
+            <value name='[Promo Importance]' />
+            <value name='[Service]' />
+            <value name='[Wifi]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Starbucks satisfactory survey v2.csv].[ambience]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[likely_to_choose]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[price]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[product]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[promo_importance]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[service]' />
+              <field name='[Starbucks satisfactory survey v2.csv].[wifi]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17qwh971dsr2w61bw5n3z13wyy1x' name='Starbucks satisfactory survey v2.csv' table='[Starbucks satisfactory survey v2#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Timestamp' ordinal='0' />
+              <column datatype='string' name='gender' ordinal='1' />
+              <column datatype='string' name='age' ordinal='2' />
+              <column datatype='string' name='status' ordinal='3' />
+              <column datatype='string' name='income' ordinal='4' />
+              <column datatype='string' name='freq_visit' ordinal='5' />
+              <column datatype='string' name='method_visit' ordinal='6' />
+              <column datatype='string' name='time_in_store' ordinal='7' />
+              <column datatype='string' name='nearest_store' ordinal='8' />
+              <column datatype='string' name='membership_card' ordinal='9' />
+              <column datatype='string' name='frequently_purchased' ordinal='10' />
+              <column datatype='string' name='typical_spend' ordinal='11' />
+              <column datatype='integer' name='product' ordinal='12' />
+              <column datatype='integer' name='price' ordinal='13' />
+              <column datatype='integer' name='promo_importance' ordinal='14' />
+              <column datatype='integer' name='ambience' ordinal='15' />
+              <column datatype='integer' name='wifi' ordinal='16' />
+              <column datatype='integer' name='service' ordinal='17' />
+              <column datatype='integer' name='likely_to_choose' ordinal='18' />
+              <column datatype='string' name='promotion_source' ordinal='19' />
+              <column datatype='string' name='likely_to_return' ordinal='20' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[income]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>income</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freq_visit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[freq_visit]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>freq_visit</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>method_visit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[method_visit]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>method_visit</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time_in_store</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[time_in_store]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>time_in_store</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nearest_store</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nearest_store]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>nearest_store</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>membership_card</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[membership_card]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>membership_card</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>frequently_purchased</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[frequently_purchased]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>frequently_purchased</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>typical_spend</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[typical_spend]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>typical_spend</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promotion_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[promotion_source]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>promotion_source</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>likely_to_return</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[likely_to_return]</local-name>
+            <parent-name>[Starbucks satisfactory survey v2.csv]</parent-name>
+            <remote-alias>likely_to_return</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]) / TOTAL(COUNT([__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Scale Items ' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Scale Score' datatype='integer' name='[Pivot Field Values]' role='measure' type='ordinal'>
+        <aliases>
+          <alias key='1' value='Poor ' />
+          <alias key='2' value='Fair ' />
+          <alias key='3' value='Good' />
+          <alias key='4' value='Very Good' />
+          <alias key='5' value='Excellent' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Starbucks satisfactory survey v2.csv' datatype='table' name='[__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+      <column caption='Freq Visit' datatype='string' name='[freq_visit]' role='dimension' type='nominal' />
+      <column caption='Frequently Purchased' datatype='string' name='[frequently_purchased]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Income' datatype='string' name='[income]' role='dimension' type='nominal' />
+      <column caption='Likely To Return' datatype='string' name='[likely_to_return]' role='dimension' type='nominal' />
+      <column caption='Membership Card' datatype='string' name='[membership_card]' role='dimension' type='nominal' />
+      <column caption='Method Visit' datatype='string' name='[method_visit]' role='dimension' type='nominal' />
+      <column caption='Nearest Store' datatype='string' name='[nearest_store]' role='dimension' type='nominal' />
+      <column caption='Promotion Source' datatype='string' name='[promotion_source]' role='dimension' type='nominal' />
+      <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+      <column caption='Time In Store' datatype='string' name='[time_in_store]' role='dimension' type='nominal' />
+      <column caption='Typical Spend' datatype='string' name='[typical_spend]' role='dimension' type='nominal' />
+      <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pivot Field Values:ok]' type='palette'>
+            <map to='#2a5783'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>3004</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#92c0df'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Starbucks satisfactory survey v2.csv' id='Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Ambience]' />
+                  <value name='[Likely To Choose]' />
+                  <value name='[Price]' />
+                  <value name='[Product]' />
+                  <value name='[Promo Importance]' />
+                  <value name='[Service]' />
+                  <value name='[Wifi]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Starbucks satisfactory survey v2.csv].[ambience]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[likely_to_choose]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[price]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[product]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[promo_importance]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[service]' />
+                    <field name='[Starbucks satisfactory survey v2.csv].[wifi]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.17qwh971dsr2w61bw5n3z13wyy1x' name='Starbucks satisfactory survey v2.csv' table='[Starbucks satisfactory survey v2#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='string' name='Timestamp' ordinal='0' />
+                    <column datatype='string' name='gender' ordinal='1' />
+                    <column datatype='string' name='age' ordinal='2' />
+                    <column datatype='string' name='status' ordinal='3' />
+                    <column datatype='string' name='income' ordinal='4' />
+                    <column datatype='string' name='freq_visit' ordinal='5' />
+                    <column datatype='string' name='method_visit' ordinal='6' />
+                    <column datatype='string' name='time_in_store' ordinal='7' />
+                    <column datatype='string' name='nearest_store' ordinal='8' />
+                    <column datatype='string' name='membership_card' ordinal='9' />
+                    <column datatype='string' name='frequently_purchased' ordinal='10' />
+                    <column datatype='string' name='typical_spend' ordinal='11' />
+                    <column datatype='integer' name='product' ordinal='12' />
+                    <column datatype='integer' name='price' ordinal='13' />
+                    <column datatype='integer' name='promo_importance' ordinal='14' />
+                    <column datatype='integer' name='ambience' ordinal='15' />
+                    <column datatype='integer' name='wifi' ordinal='16' />
+                    <column datatype='integer' name='service' ordinal='17' />
+                    <column datatype='integer' name='likely_to_choose' ordinal='18' />
+                    <column datatype='string' name='promotion_source' ordinal='19' />
+                    <column datatype='string' name='likely_to_return' ordinal='20' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Starbucks satisfactory survey v2' name='federated.1v4bn7i0mmws1x1drbf721o1lm96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1v4bn7i0mmws1x1drbf721o1lm96'>
+            <column caption='Scale Items ' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Starbucks satisfactory survey v2.csv' datatype='integer' name='[__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]' role='measure' type='quantitative' />
+            <column caption='Scale Score' datatype='integer' name='[Pivot Field Values]' role='measure' type='ordinal'>
+              <aliases>
+                <alias key='1' value='Poor ' />
+                <alias key='2' value='Fair ' />
+                <alias key='3' value='Good' />
+                <alias key='4' value='Very Good' />
+                <alias key='5' value='Excellent' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Starbucks satisfactory survey v2.csv' datatype='table' name='[__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[__tableau_internal_object_id__].[Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB]' derivation='Count' name='[pcto:cnt:Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:Pivot Field Names:nk]' direction='ASC' using='[federated.1v4bn7i0mmws1x1drbf721o1lm96].[sum:Pivot Field Values:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1v4bn7i0mmws1x1drbf721o1lm96].[pcto:cnt:Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB:qk:1]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:Pivot Field Values:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:Pivot Field Names:nk]</rows>
+        <cols>[federated.1v4bn7i0mmws1x1drbf721o1lm96].[pcto:cnt:Starbucks satisfactory survey v2.csv_5D2D5B3C358B4A93B998BAEA96D6EDFB:qk:1]</cols>
+      </table>
+      <simple-id uuid='{8F862666-9E75-49DE-9C37-91BAC7E3AFA1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:Pivot Field Values:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1v4bn7i0mmws1x1drbf721o1lm96].[:Measure Names]</field>
+            <field>[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:Pivot Field Names:nk]</field>
+            <field>[federated.1v4bn7i0mmws1x1drbf721o1lm96].[none:ambience:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EA04D455-D8A6-4251-B1A8-617593D29418}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
